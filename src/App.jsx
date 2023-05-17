@@ -3,7 +3,6 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import {
-  BrowserRouter,
   createBrowserRouter,
   RouterProvider,
   Route,
@@ -22,14 +21,12 @@ function App() {
 
   return (
     <>
-    <BrowserRouter router={router}>
     <Routes>
       <Route path="/" element={<rootLoader />}>
 
 
       </Route>
     </Routes>
-    </BrowserRouter>
       
     </>
   )

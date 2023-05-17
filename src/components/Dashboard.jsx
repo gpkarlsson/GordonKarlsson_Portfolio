@@ -5,7 +5,8 @@ export default function Dashboard() {
   return (
     <>
     <Box bg="tomato" w="100%" p={4} color="white">
-        Dashboard</Box>
+        Dashboard
+    </Box>
     </>
   )
 }
