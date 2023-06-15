@@ -3,14 +3,34 @@ import {Card, Box, Image, Badge, Text, Flex, Button, Stack, Heading, Link} from 
 
 export default function Projects() {
   return (
-    <Box>
-        <Flex>
-            <Box>
-                <Card>
-                    <Image src="https://bit.ly/2Z4KKcF" alt="Segun Adebayo" />
-                </Card>
-            </Box>
-        </Flex>
-    </Box>
+    <Card maxW='sm'>
+    <CardBody>
+      <Image
+        src='https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80'
+        alt='Green double couch with wooden legs'
+        borderRadius='lg'
+      />
+      <Stack mt='6' spacing='3'>
+        <Heading size='md'>Project Name</Heading>
+        <Text>
+          Project Info goes here!
+        </Text>
+        <Text color='blue.600' fontSize='2xl'>
+          Tools
+        </Text>
+      </Stack>
+    </CardBody>
+    <Divider />
+    <CardFooter>
+      <ButtonGroup spacing='2'>
+        <Button variant='solid' colorScheme='blue'>
+          View Deployment
+        </Button>
+        <Button variant='ghost' colorScheme='blue'>
+          GitHub Repo
+        </Button>
+      </ButtonGroup>
+    </CardFooter>
+  </Card>
   )
 }
