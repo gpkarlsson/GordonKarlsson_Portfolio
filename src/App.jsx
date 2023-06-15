@@ -17,13 +17,6 @@ const router = createBrowserRouter(
 )
 function App() {
   return (
-<<<<<<< HEAD
-    <ChakraProvider>
-      <Landing />
-      <Projects />
-      <Resume />
-    </ChakraProvider>
-=======
     <>
     <Routes>
       <Route path="/" element={<rootLoader />}>
@@ -33,7 +26,6 @@ function App() {
     </Routes>
       
     </>
->>>>>>> 84a9252d9c3b13769c5eecd3efc1777c6c7171d8
   )
 }
 
