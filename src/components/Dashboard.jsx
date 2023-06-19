@@ -6,7 +6,7 @@ export default function Dashboard() {
     <>
     <Box bg="tomato" w="100%" p={4} color="white">
         Dashboard
-    </Box>
+        </Box>
     </>
   )
 }
