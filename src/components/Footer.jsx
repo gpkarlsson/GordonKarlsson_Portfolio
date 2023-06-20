@@ -1,6 +1,6 @@
 import React from 'react'
 import { ButtonGroup, Container, Flex, IconButton, Stack, Text } from '@chakra-ui/react'
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
+import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa'
 
 export default function Footer() {
   return (
@@ -39,12 +39,12 @@ export default function Footer() {
               icon={<FaGithub fontSize="2rem" />}
               color="gray.500"
             />
-            {/* Twitter Button */}
+            {/* Email Button */}
             <IconButton
               as="a"
-              href="#"
-              aria-label="Twitter"
-              icon={<FaTwitter fontSize="2rem" />}
+              href="mailto:gpkarlsson72@gmail.com"
+              aria-label="Email"
+              icon={<FaEnvelope fontSize="2rem" />}
               color="gray.500"
             />
           </ButtonGroup>
