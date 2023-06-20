@@ -49,7 +49,7 @@ export default function Footer() {
             />
           </ButtonGroup>
           {/* Footer Text */}
-          <Text textAlign="center" fontSize="sm" mt={2} color="gray.500">&copy;  2023 Devin Hoffmaster, Gordon Karlsson, <a href="https://www.linkedin.com/in/stephen-merki-63064419a/">Stephen Merki</a>, <a href="https://www.linkedin.com/in/ben-ropa-92211b110/">Ben Ropa</a>. </Text>
+          <Text textAlign="center" fontSize="sm" mt={2} color="gray.500">&copy; 2023 Gordon Karlsson </Text>
         </Flex>
       </Stack>
     </Container>
