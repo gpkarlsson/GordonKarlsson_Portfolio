@@ -1,32 +1,31 @@
 import React from 'react'
-import {Card, Box, Image, Badge, Text, Flex, Button, Stack, Heading, Link} from '@chakra-ui/react'
+import {Card, Box, Image, Badge, Text, Flex, Button, Stack, Heading, Link, CardBody, CardFooter, ButtonGroup, Divider } from '@chakra-ui/react'
 
 export default function Projects() {
   return (
-    <Card maxW='sm'>
+    <Card maxW='sm' display='flex' flexdirection='column' justifyContent='space-between' boxShadow='5px 5px 5px gray'>
     <CardBody>
       <Image
-        src='https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80'
-        alt='Green double couch with wooden legs'
+        src=''
         borderRadius='lg'
       />
       <Stack mt='6' spacing='3'>
-        <Heading size='md'>Project Name</Heading>
+        <Heading size='md'>MERN Marketplace</Heading>
         <Text>
-          Project Info goes here!
+        A marketplace that allows users to list their own items for sale, and purchase items from other users."
         </Text>
         <Text color='blue.600' fontSize='2xl'>
-          Tools
+          Tech Stack: MongoDB, Express.js, React.js, Node.js, Mongoose, ChakraUI, Apollo GraphQL 
         </Text>
       </Stack>
     </CardBody>
     <Divider />
     <CardFooter>
       <ButtonGroup spacing='2'>
-        <Button variant='solid' colorScheme='blue'>
-          View Deployment
+        <Button as='a' variant='solid' colorScheme='blue' href='https://pacific-dawn-34240.herokuapp.com/'>
+        Deployed
         </Button>
-        <Button variant='ghost' colorScheme='blue'>
+        <Button as='a' href='https://github.com/gpkarlsson/E_Commerce_Placeholder' variant='solid' colorScheme='blue'>
           GitHub Repo
         </Button>
       </ButtonGroup>
