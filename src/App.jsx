@@ -21,10 +21,7 @@ const router = createBrowserRouter(
       <Route path="projects" element={<Projects />} />
       <Route path="resume" element={<Resume />} />
     </Route>
-  )
-
-
-  
+  ) 
 )
 function App() {
   return (

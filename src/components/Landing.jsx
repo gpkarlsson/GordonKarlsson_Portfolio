@@ -42,11 +42,6 @@ In the initial Foundation phase, I built a strong base in the essentials of web 
 <br /><br />Finally, the Performance phase was the pinnacle of the course. It introduced me to key optimization strategies and computer science principles. I ventured into the world of MongoDB, NoSQL, and React, which further broadened my skillset. One of the most beneficial aspects of this phase was creating a comprehensive portfolio that showcased my learnings.
 
 <br /><br />All in all, the bootcamp was a rigorous yet enlightening experience that consolidated my skills and spurred my transition into full-stack web development.
-
-
-
-
-
               </Card.Text>
           </Card.Body>
       </Card>
