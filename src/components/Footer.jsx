@@ -42,7 +42,7 @@ export default function Footer() {
             {/* Email Button */}
             <IconButton
               as="a"
-              href="mailto:gpkarlsson72@gmail.com"
+              href="mailto:gpkarlsson@proton.me"
               aria-label="Email"
               icon={<FaEnvelope fontSize="2rem" />}
               color="gray.500"
