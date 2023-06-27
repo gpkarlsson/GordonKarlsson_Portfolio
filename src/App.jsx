@@ -12,7 +12,7 @@ import Aboutme from './components/Aboutme'
 import Resume from './components/Resume'
 // import Dashboard from './components/Dashboard'
 import Projects from './components/Projects'
-
+import { PDFViewer } from '@react-pdf/renderer'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -25,8 +25,13 @@ const router = createBrowserRouter(
 )
 function App() {
   return (
+    <>
     <RouterProvider router={router} />
+    <PDFViewer>
+      <Resume />
+    </PDFViewer>
+    </> 
   )
 }
-
+// ReactDOM.render(<App />, document.getElementById('root'));
 export default App

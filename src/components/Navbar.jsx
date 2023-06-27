@@ -1,4 +1,4 @@
-import { Stack } from '@chakra-ui/react'
+import { Stack, Flex } from '@chakra-ui/react'
 import React from 'react'
 import { Link } from 'react-router-dom'
 export default function Navbar() {
@@ -8,7 +8,7 @@ export default function Navbar() {
       <Flex
         py={2}
         as={Link}
-        href={href ?? '#'}
+        href={'#'}
         justify={'space-between'}
         align={'center'}
         _hover={{
